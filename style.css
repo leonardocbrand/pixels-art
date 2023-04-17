@@ -3,6 +3,8 @@
 body {
     background-image: url(https://rare-gallery.com/uploads/posts/1028986-landscape-mountains-digital-art-night-pixel-art-rock-stars-Moon-fire-pixels-Noah-Bradley-The-Sin-of-Man-darkness-screenshot-computer-wallpaper-outer-space-geological-ph.png);
     color: #bbb;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
