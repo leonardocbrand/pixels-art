@@ -1,0 +1,128 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+body {
+    background-image: url(https://rare-gallery.com/uploads/posts/1028986-landscape-mountains-digital-art-night-pixel-art-rock-stars-Moon-fire-pixels-Noah-Bradley-The-Sin-of-Man-darkness-screenshot-computer-wallpaper-outer-space-geological-ph.png);
+    color: #bbb;
+}
+
+h1 {
+    text-align: center;
+    font-family: minecraft;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#color-palette {
+   display: flex;
+   justify-content: center;
+   border: 8px solid #75757529;
+}
+
+.color {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+#button-random-color {
+    margin-right: 20px;
+}
+
+#board {
+    display: flex;
+    justify-content: center;
+}
+
+.boardDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#pixel-board {
+    margin-top: 3%;
+    border: 7px solid #4b4949;
+    padding: 4%;
+    background-color: #70707054;
+}
+
+.pixel {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+#clear-board {
+    height: 50px;
+    margin-top: 2%;
+    width: 100px; 
+}
+
+#board-size {
+    font-family: minecraft, sans-serif;
+    font-size: 16px;
+    border: 3px solid #757575;
+    height: 30px;
+    width: 41px;
+    margin-top: 5%;
+    margin-left: 2%;
+    background-color: #4b4949;
+    color: #e0e0e0;
+}
+
+#generate-board {
+    height: 50px;
+    margin-top: 2%;
+    width: 100px;
+    margin-left: 2%;
+}
+
+.selected {
+    border-color: rgb(255, 255, 255);
+}
+
+button {
+    font-family: minecraft, sans-serif;
+    color: #bbb;
+    font-size: 1em;
+    transition-duration: 0.1s;
+    background-color: #313131;
+    box-shadow: 0 5px 0 0 #707070;
+}
+
+button:hover {
+    background-color: #313131a7;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#socialsFooter {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 5%;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-family: minecraft, sans-serif;
+    font-size: 15px;
+}
