@@ -22,7 +22,8 @@ main {
 #color-palette {
    display: flex;
    justify-content: center;
-   border: 8px solid #75757529;
+   background-color: #707070;
+border: 8px solid #4b494911;
 }
 
 .color {
@@ -47,7 +48,7 @@ main {
 
 #pixel-board {
     margin-top: 3%;
-    border: 7px solid #4b4949;
+    border: 10px solid #4b4949;
     padding: 4%;
     background-color: #70707054;
 }
@@ -63,6 +64,8 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 1%;
+    background-color: #707070;
+    border: 8px solid #4b494911;
 }
 
 #clear-board {
